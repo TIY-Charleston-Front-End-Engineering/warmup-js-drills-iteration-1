@@ -11,10 +11,10 @@
 var example1 = arrayToString(['This', 'is','so','interesting','right','?'])
 console.assert(example1 === "Thisissointerestingright?")
 
-var example2 = arrayToString(['I','like','making','strings','from','other','things','.']()
+var example2 = arrayToString(['I','like','making','strings','from','other','things','.'])
 console.assert(example2 === "Ilikemakingstringsfromotherthings.")
 
-var example3 = arrayToString()['Hopefully', "I'm", 'spaced', 'out'], true)
+var example3 = arrayToString(['Hopefully', "I'm", 'spaced', 'out'], true)
 console.assert(example3 === "Hopefully I'm spaced out")
 
 
@@ -34,5 +34,5 @@ console.assert( example1[1] === "I eing love this unction" )
 
 var example2 = getTheFOut('Falafel is made from fava beans in Frankfurt')
 //=> [5, 'alael is made rom ava beans in rankurt' ]
-console.assert(example2[0] === 5)
+console.assert(example2[0] === 6)
 console.assert(example2[1] === 'alael is made rom ava beans in rankurt')
