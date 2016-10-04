@@ -5,7 +5,7 @@
 // it should take as input an array, and it should concatenate all of the array's elements into one big string,
 // and then return that string.
 
-// EXTRA: Separate each element with a non-breaking space by passing a second argument
+// EXTRA: Separate each element with a non-breaking space by passing a second argument boolean of `true`
 //========================================
 
 var example1 = arrayToString(['This', 'is','so','interesting','right','?'])
@@ -14,8 +14,10 @@ console.assert(example1 === "Thisissointerestingright?")
 var example2 = arrayToString(['I','like','making','strings','from','other','things','.'])
 console.assert(example2 === "Ilikemakingstringsfromotherthings.")
 
-var example3 = arrayToString(['Hopefully', "I'm", 'spaced', 'out'], true)
-console.assert(example3 === "Hopefully I'm spaced out")
+
+// EXTRA
+// var example3 = arrayToString(['Hopefully', "I'm", 'spaced', 'out'], true)
+// console.assert(example3 === "Hopefully I'm spaced out")
 
 
 //========================================
@@ -27,9 +29,9 @@ console.assert(example3 === "Hopefully I'm spaced out")
 //========================================
 
 
-var example1 = getTheFOut('I effing love this function')
+var example1 = getTheFOut('I feel fine about this function')
 console.assert( example1[0] === 3 )
-console.assert( example1[1] === "I eing love this unction" )
+console.assert( example1[1] === "I eel ine love this unction" )
 //=> [3, "I eing love this unction"  ]
 
 var example2 = getTheFOut('Falafel is made from fava beans in Frankfurt')
