@@ -1,33 +1,31 @@
 console.log('wired up')
-// MORNING WARMUP
 
 
-// Task 1 `makeProperNoun()`
-//=====================
-// Write a function called `makeProperNoun()`
-// It should accept a string as an argument and return the string with the first letters capitalized.
-
-var makeProperNoun = function(){
-
-}
+// Task 1 `hasQ()`
+// Write a function called hasQ that accepts a string and returns true/false
+// for whether that string has the word 'q' in it.
 
 
-var output1 = makeProperNoun("billy")
-var output2 = makeProperNoun("houston")
-var output3 = makeProperNoun("the never ending story")
-var output4 = makeProperNoun("memorial day")
 
-console.assert(output1 === "Billy")
-console.assert(output2 === "Houston") 
-console.assert(output3 === "The Never Ending Story")
-console.assert(output4 === "Memorial Day")
+
+var output1 = hasQ("my mother enjoys quilting.")
+var output2 = hasQ("i'm not wearing any socks.")
+var output3 = hasQ("Quit yelling in my ear.")
+var output4 = hasQ("I went to a quarry to pick up some stone slabs.")
+var output5 = hasQ("My brain is made of cheese and my knees are jelly")
+
+console.assert(output1 === true )
+console.assert(output2 === false )
+console.assert(output3 === true)
+console.assert(output4 === false)
+console.assert(output5 === true)
 
 
 
 // Task 2 `iPutTheFunIn()`
 //=====================
 // Write a function called `iPutTheFunIn()`
-// It should accept a string and return a string with the word `~¡FUN!~` inserted in the middle
+// It should accept a string and return a string with the word `~!FUN!~` inserted in the middle
 
 //
 // If the argument is an odd number of characters (like 7),
