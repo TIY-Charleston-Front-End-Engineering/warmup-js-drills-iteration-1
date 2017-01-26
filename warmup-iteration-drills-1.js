@@ -26,6 +26,7 @@ console.assert(output5 === true)
 //=====================
 // Write a function called `iPutTheFunIn()`
 // It should accept a string and return a string with the word `~!FUN!~` inserted in the middle
+// i.e.   iPutTheFunIn('ball') => ba~!FUN!~ll
 
 //
 // If the argument is an odd number of characters (like 7),
@@ -36,7 +37,7 @@ console.assert(output5 === true)
 //
 // If the argument passed to the function is only
 // one character long, then it should return:
-// i.e.   iPutTheFunIn('you') => 'sorry thats not very fun'
+// i.e.   iPutTheFunIn('I') => 'sorry thats not very fun'
 //
 //
 
